@@ -1232,3 +1232,15 @@ function randomSentence() {
 }
 
 randomSentence();
+let ad = [
+'<a href="https://mfss.cf/v2ray" target="_blank" style="color:green;">v2ray节点</a> |  <a href="https://liao.cf/help" target="_blank" style="color:red;">代找各类资源</a> | <a href="https://liao.cf/wz" target="_blank" style="color:red;">手机赚钱</a>  | <a href="https://liao.cf/dh" target="_blank" style="color:red;">网址导航</a>  | <a href="https://mfss.cf/rss" target="_blank" style="color:green;">RSS实时节点</a> ',
+'<a href="https://mfss.cf/v2ray" target="_blank" style="color:green;">v2ray节点</a> |  <a href="https://liao.cf/help" target="_blank" style="color:red;">代找各类资源</a> | <a href="https://liao.cf/wz" target="_blank" style="color:red;">手机赚钱</a>  | <a href="https://liao.cf/dh" target="_blank" style="color:red;">网址导航</a>  | <a href="https://mfss.cf/rss" target="_blank" style="color:green;">RSS实时节点</a> ',
+'<a href="https://mfss.cf/v2ray" target="_blank" style="color:green;">v2ray节点</a> |  <a href="https://liao.cf/help" target="_blank" style="color:red;">代找各类资源</a> | <a href="https://liao.cf/wz" target="_blank" style="color:red;">手机赚钱</a>  | <a href="https://liao.cf/dh" target="_blank" style="color:red;">网址导航</a>  | <a href="https://mfss.cf/rss" target="_blank" style="color:green;">RSS实时节点</a> ',
+'<a href="https://mfss.cf/v2ray" target="_blank" style="color:green;">v2ray节点</a> |  <a href="https://liao.cf/help" target="_blank" style="color:red;">代找各类资源</a> | <a href="https://liao.cf/wz" target="_blank" style="color:red;">手机赚钱</a>  | <a href="https://liao.cf/dh" target="_blank" style="color:red;">网址导航</a>  | <a href="https://mfss.cf/rss" target="_blank" style="color:green;">RSS实时节点</a> ',
+];
+
+function randomAdnode() {
+  document.getElementById('adnode').innerHTML = ad[Math.floor(Math.random() * ad.length)];
+}
+
+randomAdnode();
